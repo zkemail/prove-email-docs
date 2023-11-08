@@ -1,5 +1,7 @@
 # Prove.Email Documentation Hub
 
+![Prove Email Logo](/public/ProveEmailLogo.png)
+
 
 Welcome to the Prove.email Documentation Hub, the central repository for comprehensive documentation on the Prove.email project suite. This hub serves as your one-stop guide to understanding and implementing our email verification solutions powered by zero-knowledge proof technology.
 
