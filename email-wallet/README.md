@@ -23,6 +23,6 @@ Here is how a typical interaction with the wallet looks like:
 - The smart contract executes the transaction and sends 1 ETH to recipient's Email Wallet address.
 - The Relayer wait for the transaction confirmation, and sends you and the recipient an email with the transaction details.
 
-![Email Wallet Workflow](/public/Screenshot%202023-11-08%20at%201.51.15 PM.png)
+![Email Wallet Workflow](/public/EmailWalletWorkflow.png)
 
 [Quick Start >>](./quick_start.md)

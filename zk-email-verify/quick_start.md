@@ -1,6 +1,4 @@
-# Installation
-
-Installation
+# Getting Started
 To get started with zk-email, install these three npm packages:
 
 ## 1. @zk-email/helpers
@@ -23,3 +21,8 @@ This package provides circuits for generating proofs and verifying DKIM signatur
 ```
 npm i @zk-email/circuits
 ```
+
+
+## Dive Deeper
+Ready to dive deeper? Check out our [Documentation](www.github.com/zkemail/zk-email-verify) for detailed guides on how zk-email-verify works and how to build your own circuit!
+

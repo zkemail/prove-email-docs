@@ -1,4 +1,4 @@
-# Quick Start
+# Getting Started
 
 ## Try Our Demo
 Visit [Email Wallet Demo](www.emailwallet.org) to explore the wallet's features without any setup required. Here's what you can expect:

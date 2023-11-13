@@ -9,7 +9,7 @@ Welcome to the Prove.email Documentation Hub, the central repository for compreh
 To get started with Prove.email, follow these steps:
 
 1. Choose the project component you're interested in from the list above.
-2. Read the "Getting Started" guide for an introduction to the technology and setup instructions.
+2. Read the "README" guide for each section to learn how the technology works and then visit "quick_start" to get started.
 3. Dive into the specific documentation for detailed information and advanced configurations.
 
 Please read our [CONTRIBUTING.md](/CONTRIBUTING.md) for details on our how you can contribute to Prove.email, and the process for submitting pull requests to us.
