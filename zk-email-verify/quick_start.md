@@ -24,5 +24,5 @@ npm i @zk-email/circuits
 
 
 ## Dive Deeper
-Ready to dive deeper? Check out our [Documentation](www.github.com/zkemail/zk-email-verify) for detailed guides on how zk-email-verify works and how to build your own circuit!
+Ready to dive deeper? Check out our [Documentation](https://github.com/zkemail/zk-email-verify) for detailed guides on how zk-email-verify works and how to build your own circuit!
 

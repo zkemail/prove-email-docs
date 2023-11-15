@@ -1,11 +1,13 @@
 # Email-Wallet SDK
 
-The Email Wallet SDK is a set of smart contracts designed to provide functionalities for an Email Wallet. The main feature of this SDK is the handling of commands, which are messages or notes associated with transactions or other operations within the system. It acts as an extension to [Email Wallet](https://www.emailwallet.org).
+The Email Wallet SDK is a set of smart contracts designed to provide functionalities for Email Wallet. The main feature of this SDK is the handling of commands, which are messages or notes associated with transactions or other operations within the system. It acts as an extension to [Email Wallet](www.emailwallet.org).
 
 For example with this SDK, developers will be able to build their own commands in the subject lines of emails such as:
 
 * "Swap 1 ETH to USDC"
 * "Transfer 2ETH to user@ethereum.org"
+
+These subject lines will trigger functions in a smart contract from your email wallet.
 
 These subject lines will trigger functions in a smart contract from your email wallet.
 
