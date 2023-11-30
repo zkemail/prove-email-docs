@@ -1,14 +1,16 @@
 # Table of contents
 
-* [Prove.Email Documentation Hub](README.md)
+* [ZK Email Documentation Hub](README.md)
+* [Zk Email Verifier](zk-email-verifier/README.md)
+  * [Zk Email Introduction](zk-email-verifier/docs/README.md)
+  * [Installation](zk-email-verifier/docs/zkEmailDocs/Installation/README.md)
+  * [Package Overviews](zk-email-verifier/docs/zkEmailDocs/Package%20Overviews/README.md)
+  * [Usage Guide](zk-email-verifier/docs/zkEmailDocs/UsageGuide/README.md)
+
 * [Email Wallet](email-wallet/README.md)
-  * [Getting Started](email-wallet/quick\_start.md)
-* [Zk Email Verifier](zk-email-verify/README.md)
-  * [Getting Started](zk-email-verify/quick\_start.md)
+ * [Email Wallet SDK](email-wallet-extensions-sdk/README.md)
+
 * [Zk Regex](zk-regex/README.md)
-  * [Getting Started](zk-regex/quick\_start.md)
-* [Email-Wallet SDK](email-wallet-sdk/README.md)
-  * [Getting Started](email-wallet-sdk/quick\_start.md)
-* [Twitter Verifier](twitter-verifier/README.md)
-  * [Getting Started](twitter-verifier/quick\_start.md)
+
+
 * [Contributing](CONTRIBUTING.md)

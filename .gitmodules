@@ -1,0 +1,13 @@
+
+[submodule "/Users/elomukoro/Documents/zkEmail/Prove.email.docs/prove-email-docs/email-wallet-extensions-sdk"]
+	path = /Users/elomukoro/Documents/zkEmail/Prove.email.docs/prove-email-docs/email-wallet-extensions-sdk
+	url = https://github.com/zkemail/email-wallet-sdk.git
+[submodule "/Users/elomukoro/Documents/zkEmail/Prove.email.docs/prove-email-docs/email-wallet"]
+	path = /Users/elomukoro/Documents/zkEmail/Prove.email.docs/prove-email-docs/email-wallet
+	url = https://github.com/zkemail/email-wallet.git
+[submodule "/Users/elomukoro/Documents/zkEmail/Prove.email.docs/prove-email-docs/zk-regex"]
+	path = /Users/elomukoro/Documents/zkEmail/Prove.email.docs/prove-email-docs/zk-regex
+	url = https://github.com/zkemail/zk-regex.git
+[submodule "/Users/elomukoro/Documents/zkEmail/Prove.email.docs/prove-email-docs/zk-email-verifier"]
+	path = /Users/elomukoro/Documents/zkEmail/Prove.email.docs/prove-email-docs/zk-email-verifier
+	url = https://github.com/zkemail/zk-email-verify.git
