@@ -2,3 +2,6 @@ root: ./
 structure:
   readme: README.md
   summary: SUMMARY.md
+  zk-email-verifier: ./zk-email-verifier/SUMMARY.md
+  email-wallet: ./email-wallet/docs/src/SUMMARY.md
+  zk-regex: ./zk-regex/SUMMARY.md
