@@ -1,17 +1,3 @@
 # Table of contents
 
-* [ZK Email Documentation Hub](README.md)
-* [Welcome to ZK-Email](welcome-to-zk-email/README.md)
-  * [ZK Email Introduction](welcome-to-zk-email/zk-email-introduction.md)
-  * [Installation](welcome-to-zk-email/installation.md)
-  * [Package Overviews](welcome-to-zk-email/package-overviews.md)
-  * [Usage Guide](welcome-to-zk-email/usage-guide.md)
-* [Zk Email Verifier](zk-email-verifier/README.md)
-  * [Zk Email Introduction](zk-email-verifier/zk-email-introduction.md)
-  * [Installation](zk-email-verifier/installation.md)
-  * [Package Overviews](zk-email-verifier/package-overviews.md)
-  * [Usage Guide](zk-email-verifier/usage-guide.md)
-* [Email Wallet](email-wallet.md)
-* [Email Wallet SDK](email-wallet-sdk.md)
-* [Zk Regex](zk-regex.md)
-* [Contributing](CONTRIBUTING.md)
+* [Page](README.md)
