@@ -8,13 +8,13 @@ Welcome to the ZK Email Documentation Hub, the central repository for comprehens
 
 We have several repos within the ZK Email ecosystem. Developers can use these to build their own custom email verification circuits.
 
-[ZK Email Verifier](https://github.com/zkemail/zk-email-verify): Enables specific domain email verification.
+[ZK Email Verifier](https://github.com/zkemail/zk-email-verify): Build custom circuits, smart contracts, and frontend utils. This SDK will likely require ZK knowledge to be able to use.
 
-[Email Wallet](https://github.com/zkemail/email-wallet):A smart contract wallet controlled by your email.
+[Email Wallet](https://github.com/zkemail/email-wallet): A smart contract wallet controlled by your email.
 
-[Email Wallet SDK](https://github.com/zkemail/email-wallet-sdk): Customize email extensions to interact with defi protocols.
+[Email Wallet Extensions SDK](https://github.com/zkemail/email-wallet-sdk): Define email wallet commands to interact with smart contracts automatically, only by writing Solidity.
 
-[ZK Regex](https://github.com/zkemail/zk-regex): A library to do regex verification in circom
+[ZK Regex](https://github.com/zkemail/zk-regex): A library to do regex verification in circom. The zk-regex CLI takes in a regex and outputs a ZK circuit.
 
 ## Projects that use ZK Email
 
