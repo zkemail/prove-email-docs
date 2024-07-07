@@ -6,6 +6,8 @@ description: >-
 
 # ZK-Regex
 
+To understand the theory behind the regex circuit compiler, read our [blog post](https://prove.email/blog/zkregex).
+
 ### Introduction
 
 This library provides circom circuits that enables you to prove that
@@ -13,7 +15,7 @@ This library provides circom circuits that enables you to prove that
 * the input string satisfies regular expressions (regexes) specified in the chip.
 * the substrings are correctly extracted from the input string according to substring definitions.
 
-This is a JS/Rust adaptation of the Python regex-to-circom work done by [sampriti](https://github.com/sampritipanda/) and [yush\_g](https://twitter.com/yush\_g), along with [sorasue](https://github.com/SoraSuegami/)'s decomposed specifications. You can generate your own regexes via our no-code tool at https://www.zkregex.com
+This is a Rust adaptation of the V1 JS/Python regex-to-circom work first done by [sampriti](https://github.com/sampritipanda/) and [yush\_g](https://twitter.com/yush\_g), rewritten and majorly expanded to a V2 by [aditya](https://github.com/Bisht13) and [sorasue](https://github.com/SoraSuegami/) in 2024 to use a simpler decomposed specification. You can generate your own regexes via the V1 compiler with our no-code tool at [zkregex.com](https://www.zkregex.com).
 
 In addition to the original work, this library also supports the following features:
 
@@ -24,13 +26,9 @@ In addition to the original work, this library also supports the following featu
 
 You can define a regex to be proved and its substring patterns to be revealed. Specifically, there are two ways to define them:
 
-1. (manual way) converting the regex into an equivalent determistic finite automaton (DFA), selecting state transitions for each substring pattern, and writing the transitions in a json file.
-2. (automatic way) writing a decomposed version of the regex in a json file with specifying which part of the regex is revealed.
-3. (no code way) put the regex into zkregex.com > tool, highlight your chosen part, and copy the generated circuit While the manual way supports more kinds of regexes than the automatic way, the latter is easier and sufficient for most regexes.
-
-#### Theory
-
-To understand the theory behind the regex circuit compiler, please checkout [this blog post](https://katat.me/blog/ZK+Regex) (edits in progress). You can also look at the original regex description and how it ties into the original zk email work at the [original zk-email blog post regex overview](https://blog.aayushg.com/posts/zkemail#regex-deterministic-finite-automata-in-zk).
+1. (manual way, v1 only) converting the regex into an equivalent determistic finite automaton (DFA), selecting state transitions for each substring pattern, and writing the transitions in a json file.
+2. (automatic way, v2 only) writing a decomposed version of the regex in a json file, and specify which part of the regex is revealed and which is private.
+3. (no code way, v1 only) put the regex into zkregex.com > tool, highlight your chosen part, and copy the generated circuit.&#x20;
 
 ### How to use
 
@@ -46,7 +44,7 @@ yarn install
 
 #### Compiler CLI
 
-`zk-regex` is a CLI to compile a user-defined regex to the corresponding regex circuit. It provides two commands: `raw` and `decomposed`
+[`zk-regex`](https://github.com/zkemail/zk-regex/) is a CLI to compile a user-defined regex to the corresponding regex circuit. It provides two commands: `raw` and `decomposed`
 
 **`zk-regex decomposed -d <DECOMPOSED_REGEX_PATH> -c <CIRCOM_FILE_PATH> -t <TEMPLATE_NAME> -g <GEN_SUBSTRS (true/false)>`**
 
