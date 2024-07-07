@@ -85,5 +85,3 @@ You can hit [https://staging.emailwallet.org/](https://staging.emailwallet.org/a
 
 * Success: JSON serialized response with HTTP status 200 containing the account salt.
 * Failure: Error message with HTTP status 500.
-
-Would you like me to explain or break down any part of this formatted markdown?

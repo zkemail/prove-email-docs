@@ -4,7 +4,7 @@
 
 ### Overview
 
-The [OauthCore](https://github.com/zkemail/email-wallet/blob/feat/oauth-mvp/packages/ts-sdk/src/oauthClient.ts) SDK provides a set of functionalities to interact with an OAuth-based authentication system. It allows users to request email authentication, complete the authentication process, query OAuth usernames, and perform OAuth sign-in and sign-up operations via an ephemeral key for that browser session.
+The [OauthCore](https://github.com/zkemail/email-wallet/blob/feat/oauth-mvp/packages/ts-sdk/src/oauthClient.ts) SDK provides a set of functionalities to interact with an OAuth-based authentication system. It allows users to request email authentication, complete the authentication process, query OAuth usernames, and perform OAuth sign-in and sign-up operations via an ephemeral key for that browser session. You can see our [demo frontend code here](https://github.com/zkemail/oauth-demo-ui) for more specific implementation details.
 
 ### Installation
 
