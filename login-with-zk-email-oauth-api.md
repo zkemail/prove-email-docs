@@ -32,6 +32,13 @@ To create an instance of `OauthClient`, you need to provide the following parame
 * `oauthAddress`: The address of the OAuth contract.
 * `relayerHost`: The host URL of the relayer service.
 
+The constructor can also take the following **optional** arguments. You can set them to skip calling the `setup` and `waitEpheAddrActivated`functions when the user's browser local storage stores a cached ephemeral key.
+
+* `userEmailAddr`: The user's email address (optional).
+* `userWalletAddr`: The user's wallet address (optional).
+* `ephePrivateKey`: The ephemeral private key (optional).
+* `epheAddrNonce`: The nonce when the ephemeral private key is registered (optional).
+
 #### Example
 
 ```typescript
@@ -63,6 +70,8 @@ const oauthClient = new OauthClient(publicClient, coreAddress, oauthAddress, rel
 When an instance of `OauthClient` is created, a new ephemeral ECDSA key is internally generated.
 
 ### Functions
+
+To sign-up/sign-in the user's account and broadcast transactions via an ephemeral key, you just need to call three functions: `setup`, `waitEpheAddrActivated`, and `oauthExecuteTx.`
 
 #### Step 1. `setup`
 
