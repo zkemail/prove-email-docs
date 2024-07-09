@@ -59,7 +59,7 @@ const oauthAddress: Address = '0xYourOauthCoreContractAddress';
 */
 const relayerHost: string = 'https://your-relayer-host.com';
 /* For Base sepolia, this relayer will be deployed around July 9 2pm UTC
-    const relayerHost: string = "https://oauth.emailwallet.org";
+    const relayerHost: string = "https://oauth-api.emailwallet.org";
 */
 
 const oauthClient = new OauthClient(publicClient, coreAddress, oauthAddress, relayerHost);
