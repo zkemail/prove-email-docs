@@ -43,8 +43,17 @@ const publicClient = new PublicClient(/* configuration */);
     });
 */
 const coreAddress: Address = '0xYourCoreContractAddress';
+/* For Base sepolia,
+    const coreAddress: Address = '0x0EdEe376EA471DAF3e6B0eff4b413A6c332D5195';
+*/
 const oauthAddress: Address = '0xYourOauthCoreContractAddress';
+/* For Base sepolia,
+    const oauthAddress: Address = '0x3693889046A82bCc56257540E5F9fb2F83A7A79b';
+*/
 const relayerHost: string = 'https://your-relayer-host.com';
+/* For Base sepolia, this relayer will be deployed around July 9 2pm UTC
+    const relayerHost: string = "https://oauth.emailwallet.org";
+*/
 
 const oauthClient = new OauthClient(publicClient, coreAddress, oauthAddress, relayerHost);
 ```
