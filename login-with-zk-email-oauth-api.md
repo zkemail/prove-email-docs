@@ -51,11 +51,11 @@ const publicClient = new PublicClient(/* configuration */);
 */
 const coreAddress: Address = '0xYourCoreContractAddress';
 /* For Base sepolia,
-    const coreAddress: Address = '0x0EdEe376EA471DAF3e6B0eff4b413A6c332D5195';
+    const coreAddress: Address = '0xb6BA1Fa0A02c62CDaB29dD6d79835Dc817a0c8c0';
 */
 const oauthAddress: Address = '0xYourOauthCoreContractAddress';
 /* For Base sepolia,
-    const oauthAddress: Address = '0x3693889046A82bCc56257540E5F9fb2F83A7A79b';
+    const oauthAddress: Address = '0x63B5822131BA821Eb0B57a45d35Ee620253f87f0';
 */
 const relayerHost: string = 'https://your-relayer-host.com';
 /* For Base sepolia, this relayer will be deployed around July 9 2pm UTC
