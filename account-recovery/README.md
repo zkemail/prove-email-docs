@@ -1,6 +1,6 @@
 # Account Recovery
 
-## Ether Email-Auth SDK
+## [Ether Email-Auth](https://github.com/zkemail/ether-email-auth/tree/feat/docs-updates) SDK
 
 ### Overview
 
