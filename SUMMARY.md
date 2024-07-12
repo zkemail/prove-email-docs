@@ -14,7 +14,7 @@
   * [Contract Architecture](email-wallet/contract-architecture.md)
   * [Relayer Infrastructure](email-wallet/relayer-infrastructure.md)
   * [Email Wallet Extensions SDK](email-wallet/email-wallet-extensions-sdk.md)
-* [Account Recovery API](account-recovery-api.md)
+* [Account Recovery Relayer API](account-recovery-relayer-api.md)
 * [Login with ZK Email: OAuth API](login-with-zk-email-oauth-api.md)
 * [ZK-Regex](zk-regex.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
