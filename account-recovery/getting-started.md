@@ -24,6 +24,8 @@ foundryup -v nightly-cafc2606a2187a42b236df4aa65f4e8cdfcea970
 git clone https://github.com/zkemail/ether-email-auth.git
 ```
 
+**At the moment, please use the feat/docs-updates branch.**
+
 ### Set up
 
 Move to the `packages/contracts` directory and run the following command.
