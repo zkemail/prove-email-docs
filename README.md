@@ -8,7 +8,9 @@ Welcome to the ZK Email Documentation Hub, the central repository for comprehens
 
 We have several repos within the ZK Email ecosystem. Developers can use these to build their own custom email verification circuits.
 
-[ZK Email Verifier](https://github.com/zkemail/zk-email-verify): Build custom circuits, smart contracts, and frontend utils. This SDK will likely require ZK knowledge to be able to use.
+[ZK Email SDK](zk-email-sdk/): Use this to build a new kind of ZK Email proofs out of the box with 8 lines of JSON, and automatically have proof infrastructure deployed for you. We recommend this for all developers new to ZK Email.
+
+[ZK Email Verifier](https://github.com/zkemail/zk-email-verify): Build custom circuits, smart contracts, and frontend utils. This SDK will likely require ZK knowledge to be able to use, and gives more customizability than the [ZK Email SDK](zk-email-sdk/).
 
 [Email Wallet](https://github.com/zkemail/email-wallet): A smart contract wallet controlled by your email. You can understand [how to hit the API](email-wallet/api-documentation.md) from a frontend easily, [run your own relayer](email-wallet/relayer-infrastructure.md) if you like, or [define your own extensions](email-wallet/email-wallet-extensions-sdk.md) to add functionality.
 

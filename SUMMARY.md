@@ -1,6 +1,10 @@
 # Table of contents
 
 * [ZK Email Documentation Hub](README.md)
+* [ZK Email SDK](zk-email-sdk/README.md)
+  * [Running the Example](zk-email-sdk/running-the-example.md)
+  * [Creating a New Pattern](zk-email-sdk/creating-a-new-pattern.md)
+  * [Using the SDK](zk-email-sdk/using-the-sdk.md)
 * [ZK-Email-Verifier](zk-email-verifier/README.md)
   * [Installation](zk-email-verifier/installation.md)
   * [Packages](zk-email-verifier/packages/README.md)
