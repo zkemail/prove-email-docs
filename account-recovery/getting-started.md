@@ -266,7 +266,7 @@ After that, deploy the contract by running the following command.
 
 ```sh
 source .env
-forge script script/DeployCommons.s.sol:Deploy --rpc-url $SEPOLIA_RPC_URL --chain-id $CHAIN_ID --etherscan-api-key $ETHERSCAN_API_KEY --broadcast --verify -vvvv
+forge script script/DeployRecoveryController.s.sol:Deploy --rpc-url $SEPOLIA_RPC_URL --chain-id $CHAIN_ID --etherscan-api-key $ETHERSCAN_API_KEY --broadcast --verify -vvvv
 ```
 
 That's all for the contracts side.
