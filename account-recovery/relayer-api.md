@@ -1,6 +1,6 @@
 # Relayer API
 
-You can hit [https://relayerapi.emailwallet.org](https://relayerapi.emailwallet.org) relayerapi.emailwallet.org as the base URL for this right now. To see an interactive example of this API in practice, you can see [demo frontend code here](https://github.com/zkemail/email-recovery-demo) and [try the flow yourself here](https://recovery.prove.email/).
+You can hit [https://auth.prove.email](https://auth.prove.email) as the base URL for this right now. To see an interactive example of this API in practice, you can see [demo frontend code here](https://github.com/zkemail/email-recovery-demo) and [try the flow yourself here](https://recovery.prove.email/).
 
 ## Account Recovery Relayer API Docs
 
