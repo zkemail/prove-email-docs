@@ -27,3 +27,4 @@
     * [Package Components](account-recovery/novel-concepts/package-components.md)
   * [Getting Started](account-recovery/getting-started.md)
   * [Relayer API](account-recovery/relayer-api.md)
+* [Deployed Contracts](deployed-contracts.md)
