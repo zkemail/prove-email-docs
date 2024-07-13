@@ -4,7 +4,11 @@
 
 ### Overview
 
-The [ZK Email Oauth](https://github.com/zkemail/email-wallet/tree/feat/oauth-mvp/packages/ts-sdk) SDK provides a set of functionalities to interact with an OAuth-based authentication system. It allows users to perform OAuth sign-in and sign-up operations for natural usernames via an email and broadcast transactions on-chain via an ephemeral key for that browser session. You can see our [demo frontend code here](https://github.com/zkemail/oauth-demo-ui) for more specific implementation details.
+The [ZK Email Oauth](https://github.com/zkemail/email-wallet/tree/feat/oauth-mvp/packages/ts-sdk) SDK provides a set of functionalities to interact with a decentralized, email-based OAuth-based authentication system. It allows users to perform OAuth sign-in and sign-up operations for natural usernames via an email, and broadcast transactions on-chain via an ephemeral key for that browser session.
+
+Unlike Email Wallet, the Oauth SDK only asks for one one email reply at the start of each user login in order to login on that device, and then you can execute all further transcations in the background via the ephemeral key.
+
+You can see example [frontend code here](https://github.com/zkemail/oauth-demo-ui) for more specific implementation details, and the deployed version[ here](https://oauth.emailwallet.org/).
 
 ### Installation
 
@@ -42,25 +46,13 @@ The constructor can also take the following **optional** arguments. You can set 
 #### Example
 
 ```typescript
-const publicClient = new PublicClient(/* configuration */);
-/* For Base Sepolia,
-   const publicClient = createPublicClient({
-        chain: baseSepolia,
-        transport: http("https://sepolia.base.org"),
+const publicClient = createPublicClient({
+        chain: baseSepolia, // Chain ID
+        transport: http("https://sepolia.base.org"), // Transport URL
     });
-*/
-const coreAddress: Address = '0xYourCoreContractAddress';
-/* For Base sepolia,
-    const coreAddress: Address = '0xb6BA1Fa0A02c62CDaB29dD6d79835Dc817a0c8c0';
-*/
-const oauthAddress: Address = '0xYourOauthCoreContractAddress';
-/* For Base sepolia,
-    const oauthAddress: Address = '0x63B5822131BA821Eb0B57a45d35Ee620253f87f0';
-*/
-const relayerHost: string = 'https://your-relayer-host.com';
-/* For Base sepolia, this relayer will be deployed around July 9 2pm UTC
-    const relayerHost: string = "https://oauth-api.emailwallet.org";
-*/
+const coreAddress: Address = '0xb6BA1Fa0A02c62CDaB29dD6d79835Dc817a0c8c0'; // Your core contract address. This prefilled default is already deployed on Base Sepolia
+const oauthAddress: Address = '0x63B5822131BA821Eb0B57a45d35Ee620253f87f0'; // Your OAuth core contract address, deployed on Base Sepolia
+const relayerHost: string = "https://oauth-api.emailwallet.org"; // Your relayer host; this one is public and deployed on Base Sepolia
 
 const oauthClient = new OauthClient(publicClient, coreAddress, oauthAddress, relayerHost);
 ```
