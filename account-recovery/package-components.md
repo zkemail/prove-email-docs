@@ -74,4 +74,4 @@ Specifically, we expect the following UX. **Notably, the guardian only needs to 
 14. (Completing a recovery 1/2) When the frontend script finds that the required condition to complete the recovery holds on-chain, e.g., enough number of the guardian's confirmations are registered into the account contract, it requests the Relayer to complete the recovery.
 15. (Completing a recovery 2/2) The Relayer sends a transaction to call a function for completing the recovery. If it returns no error, the owner address should be rotated.
 
-<figure><img src="../../.gitbook/assets/account-recovery-flow.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/account-recovery-flow.png" alt=""><figcaption><p>Account Recovery Flow</p></figcaption></figure>
