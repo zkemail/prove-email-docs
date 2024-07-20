@@ -50,8 +50,8 @@ const publicClient = createPublicClient({
         chain: baseSepolia, // Chain ID
         transport: http("https://sepolia.base.org"), // Transport URL
     });
-const coreAddress: Address = '0xb6BA1Fa0A02c62CDaB29dD6d79835Dc817a0c8c0'; // Your core contract address. This prefilled default is already deployed on Base Sepolia
-const oauthAddress: Address = '0x63B5822131BA821Eb0B57a45d35Ee620253f87f0'; // Your OAuth core contract address, deployed on Base Sepolia
+const coreAddress: Address = '0x3C0bE6409F828c8e5810923381506e1A1e796c2F'; // Your core contract address. This prefilled default is already deployed on Base Sepolia
+const oauthAddress: Address = '0x8bFcBe6662e0410489d210416E35E9d6B62AF659'; // Your OAuth core contract address, deployed on Base Sepolia
 const relayerHost: string = "https://oauth-api.emailwallet.org"; // Your relayer host; this one is public and deployed on Base Sepolia
 
 const oauthClient = new OauthClient(publicClient, coreAddress, oauthAddress, relayerHost);
